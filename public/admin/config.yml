@@ -2,12 +2,13 @@ backend:
   name: github
   repo: JeanMoraes/netlify-cms-lab
   base_url: https://netlify-cms-lab.vercel.app/
+  branch: main
   auth_endpoint: api/auth/ # Essa rota vai ser muito importante mais para frente
 
 media_folder: public/assets/img
 public_folder: /assets/img
 
-publish_mode: editorial_workflow # Isso permite ter aquele workflow com drafts e tudo
+# publish_mode: editorial_workflow # Isso permite ter aquele workflow com drafts e tudo
 
 slug:
   encoding: 'ascii'
